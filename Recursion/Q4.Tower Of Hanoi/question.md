@@ -18,8 +18,11 @@ Output: 3
 **Explanation:**
 
 For n =2 , steps will be as follows in the example and total 3 steps will be taken.
+
 move disk 1 from rod 1 to rod 2
+
 move disk 2 from rod 1 to rod 3
+
 move disk 1 from rod 2 to rod 3
 
 **Example 2**
@@ -31,12 +34,19 @@ Output: 7
 **Explanation:**
 
 For N=3 , steps will be as follows in the example and total 7 steps will be taken.
+
 move disk 1 from rod 1 to rod 3
+
 move disk 2 from rod 1 to rod 2
+
 move disk 1 from rod 3 to rod 2
+
 move disk 3 from rod 1 to rod 3
+
 move disk 1 from rod 2 to rod 1
+
 move disk 2 from rod 2 to rod 3
+
 move disk 1 from rod 1 to rod 3
 
 
@@ -49,12 +59,19 @@ Output: 7
 **Explanation:**
 
 For N=3 , steps will be as follows in the example and total 7 steps will be taken.
+
 move disk 1 from rod 1 to rod 3
+
 move disk 2 from rod 1 to rod 2
+
 move disk 1 from rod 3 to rod 2
+
 move disk 3 from rod 1 to rod 3
+
 move disk 1 from rod 2 to rod 1
+
 move disk 2 from rod 2 to rod 3
+
 move disk 1 from rod 1 to rod 3
 
 Constraints:
