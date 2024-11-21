@@ -1,38 +1,39 @@
-**Q1-Power of Two**
+**Q1-Two Sum**
 -
  **Difficulty-Easy**
  
-Given an integer n, return true if it is a power of two. Otherwise, return false.
+Given an array of integers nums and an integer target,
 
-An integer n is a power of two, if there exists an integer x such that n == 2x.
+return indices of the two numbers such that they add up to target.
 
 Examples
 -
 
 **Example 1:**
 
-Input: n = 1
-Output: true
-Explanation: 20 = 1
+Input: nums = [2,7,11,15], target = 9
+
+Output: [0,1]
+**Explanation:**
+Because nums[0] + nums[1] == 9, we return [0, 1].
+
 
 **Example 2:**
-Input: n = 16
+Input: nums = [3,2,4], target = 6
 
-Output: true
-
-**Explanation:**
-
-![image](https://github.com/user-attachments/assets/70387c76-c9bc-4989-8bce-0af60132737f)
-
+Output: [1,2]
 
 
 
 **Example 3:**
 
-Input: n = 3
+Input: nums = [3,3], target = 6
 
-Output: false
+Output: [0,1]
 
 Constraints:
 -
-- -231 <= n <= 231 - 1
+- 2 <= nums.length <= 104
+- -109 <= nums[i] <= 109
+- -109 <= target <= 109
+- Only one valid answer exists.
