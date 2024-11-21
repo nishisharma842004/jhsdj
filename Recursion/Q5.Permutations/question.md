@@ -1,32 +1,44 @@
-**Q5.Subsets**
+**Q5.Isomorphic Strings**
 -
-Difficulty Medium
+Difficulty Easy
 
-Given an integer array nums of unique elements, return all possible 
-subsets
- (the power set).
+Given two strings s and t, determine if they are isomorphic.
+
+Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+
+All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+
  
-The solution set must not contain duplicate subsets.
-Return the solution in any order.
-
 
 Examples
 -
 
 **Example 1:**
 
-Input: nums = [1,2,3]
+Input: s = "egg", t = "add"
 
-Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
+Output: true
+
+**Explanation:**
+
+The strings s and t can be made identical by:
+
+- Mapping 'e' to 'a'.
+- Mapping 'g' to 'd'.
+
 
 **Example 2:**
 
-Input: nums = [0]
+Input: s = "foo", t = "bar"
 
-Output: [[],[0]]
+Output: false
+
+**Explanation:**
+The strings s and t can not be made identical as 'o' needs to be mapped to both 'a' and 'r'.
+
 
 Constraints:
 -
-- 1 <= nums.length <= 10
-- -10 <= nums[i] <= 10
-- All the numbers of nums are unique.
+- 1 <= s.length <= 5 * 104
+- t.length == s.length
+- s and t consist of any valid ascii character.
