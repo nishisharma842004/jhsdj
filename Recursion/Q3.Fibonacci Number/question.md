@@ -1,34 +1,40 @@
-**Q3.Permutations**
+**Q3.Group Anagrams**
 -
 Difficulty  Medium
 
-Given an array nums of distinct integers, return all the possible 
-permutations
-. You can return the answer in any order.
+Given an array of strings strs, group the 
+anagrams
+
 
 Examples
 -
 **Example 1:**
 
-Input: nums = [1,2,3]
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
 
-Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+**Explanation:**
+
+- There is no string in strs that can be rearranged to form "bat".
+- The strings "nat" and "tan" are anagrams as they can be rearranged to form each other.
+- The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other.
 
 **Example 2:**
 
-Input: nums = [0,1]
+Input: strs = [""]
 
-Output: [[0,1],[1,0]]
+Output: [[""]]
 
 **Example 3:**
 
-Input: nums = [1]
+Input: strs = ["a"]
 
-Output: [[1]]
+Output: [["a"]]
 
 
 Constraints:
 -
-- 1 <= nums.length <= 6
-- -10 <= nums[i] <= 10
--  All the integers of nums are unique.
+- 1 <= strs.length <= 104
+- 0 <= strs[i].length <= 100
+- strs[i] consists of lowercase English letters.
